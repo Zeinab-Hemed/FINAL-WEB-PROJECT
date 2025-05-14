@@ -1,0 +1,95 @@
+<!-- This is a simple portfolio webpage for Zeinab Hemed Swaleh -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zeinab Hemed Swaleh - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Zeinab Hemed Swaleh</h1>
+            <p>Data Officer | Project Management Enthusiast</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about" onclick="showPage('about')">About</a></li>
+                <li><a href="#experience" onclick="showPage('experience')">Experience</a></li>
+                <li><a href="#skills" onclick="showPage('skills')">Skills</a></li>
+                <li><a href="#contact" onclick="showPage('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="page">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>An experienced professional with a background in Data Analysis and the MEAL (Monitoring, Evaluation, Accountability, and Learning) department. With five years of experience in data entry, I am skilled in data collection, management, and analysis to support informed decision-making. My expertise includes ensuring data accuracy, designing MEAL frameworks, and leveraging analytical tools to enhance program performance and impact. Passionate about using data-driven insights, I contribute to efficient monitoring and evaluation processes that drive organizational success. Interested in learning more about software development.</p>
+            </div>
+        </section>
+
+        <section id="experience" class="page" style="display: none;">
+            <div class="container">
+                <h2>Experience</h2>
+                <ol>
+                    <li><strong>Temporary Field Enumerator</strong> - Ananda Marga Universal Relief Team (AMURT) - Beneficiary Satisfaction Survey (2022)</li>
+                    <li>Successfully conducted field interviews to beneficiaries of the USAID Tujitegemee project in Kilifi County.</li>
+                    <li>Carried out a Case Plan Achievement and Readiness Assessment for OVC households in Kilifi County (2022), managing to visit 80 households.</li>
+                    <li>Conducted a Beneficiary Satisfaction Survey, interviewing 80 graduated households, with 99% satisfaction rate from the project.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="skills" class="page" style="display: none;">
+            <div class="container">
+                <h2>Skills</h2>
+                <ol>
+                    <li>Data Management & Analysis</li>
+                    <li>Monitoring & Evaluation (M&E) Reporting</li>
+                    <li>CPIMS/PIMS Database Management</li>
+                    <li>Data Quality Assessment</li>
+                    <li>Survey Design & Implementation</li>
+                    <li>USG Donor Reporting</li>
+                    <li>Field Research & Interviewing</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="contact" class="page" style="display: none;">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Feel free to reach out for collaboration, inquiries, or more information:</p>
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+                <p id="formMessage"></p>
+
+                <ul>
+                    <li><strong>Phone:</strong> 0758366039</li>
+                    <li><strong>Email:</strong> <a href="mailto:zeinabhemedy@gmail.com">zeinabhemedy@gmail.com</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Zeinab Hemed</p>
+        </div>
+    </footer>
+</body>
+</html>
